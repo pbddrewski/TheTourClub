@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Tour Club — Private Members-Only Golf Simulator Club. 6 Pro-Grade Bays, 24/7 Keycard Access, Limited to 150 Members. Join via Kickstarter.">
+  <title>The Tour Club — Private Members-Only Golf Simulator Club</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #F7F7F5;
+      color: #0B0B0B;
+      line-height: 1.6;
+    }
+    header {
+      background: #0C3B2E;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #C9A646;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 8rem 2rem;
+      position: relative;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(12, 59, 46, 0.6);
+    }
+    .hero > div {
+      position: relative;
+      z-index: 2;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 0.5rem;
+    }
+    .btn-primary {
+      background: #C9A646;
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: #b4913d;
+    }
+    .btn-secondary {
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+    }
+    .btn-secondary:hover {
+      background: #fff;
+      color: #0C3B2E;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .perks {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .perk {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #0C3B2E;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    footer a {
+      color: #C9A646;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="The Tour Club Logo">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#perks">Membership</a>
+      <a href="#limited">Limited</a>
+      <a href="#waitlist">Waitlist</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>The Tour Club</h1>
+      <p>A private, members-only golf simulator club</p>
+      <a href="https://www.kickstarter.com/profile/thetourclub" target="_blank" class="btn btn-primary">Back on Kickstarter</a>
+      <a href="https://www.facebook.com/profile.php?id=61580422525437" target="_blank" class="btn btn-secondary">Follow on Facebook</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About the Club</h2>
+    <p>We’re creating a private, members-only golf simulator facility unlike anything else. Six professional-grade simulator bays, a lounge, kitchen, and putting/warm-up area — designed exclusively for just 150 golfers.</p>
+    <p>Every member gets 24/7 access, a personal key card, and the ability to bring up to 3 guests anytime. With Mevo+ launch monitors, GSPro software, and premium turf setups, this will be the ultimate place to play, practice, and connect.</p>
+  </section>
+
+  <section id="perks">
+    <h2>Membership Perks</h2>
+    <div class="perks">
+      <div class="perk">✅ 24/7 key card access</div>
+      <div class="perk">✅ Bring up to 3 guests anytime</div>
+      <div class="perk">✅ One active 2-hour booking at a time, or walk-in if a bay is free</div>
+      <div class="perk">✅ One private 6-hour party per year (up to 24 guests)</div>
+      <div class="perk">✅ Lounge, kitchen, and putting/warm-up areas</div>
+      <div class="perk">✅ Monthly billing of $119.99</div>
+    </div>
+  </section>
+
+  <section id="limited">
+    <h2>Limited Membership</h2>
+    <p>We’re capping the club at just 150 members. Once those are filled, that’s it. No expansions, no exceptions.</p>
+  </section>
+
+  <section id="waitlist">
+    <h2>Waitlist Tier</h2>
+    <p>Don’t miss out! If memberships sell out, you can still back us on Kickstarter at the Waitlist Tier.</p>
+    <p>● $15 Waitlist Spot – Secure your spot on our official waitlist. When a current member cancels, you’ll be the first to get the call to join.</p>
+    <a href="https://www.kickstarter.com/profile/thetourclub" target="_blank" class="btn btn-primary">Join the Waitlist</a>
+  </section>
+
+  <section>
+    <h2>Why Kickstarter?</h2>
+    <p>We’re launching on Kickstarter to bring together our founding members — the golfers who will help us create this one-of-a-kind space. Once we’ve filled our 150 memberships, we’ll use that momentum to secure the additional funding needed to complete the buildout.</p>
+    <p>This is your chance to get in from day one.</p>
+    <a href="https://www.kickstarter.com/profile/thetourclub" target="_blank" class="btn btn-primary">Back on Kickstarter</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Tour Club</p>
+    <a href="https://www.kickstarter.com/profile/thetourclub" target="_blank">Kickstarter</a> |
+    <a href="https://www.facebook.com/profile.php?id=61580422525437" target="_blank">Facebook</a>
+  </footer>
+</body>
+</html>
